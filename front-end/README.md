@@ -1,46 +1,42 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Front-end Documentation for GatorBites Forum
 
-## Available Scripts
+## Overview
+This front-end application is a forum for sharing and discussing food-related content. It includes features such as creating and viewing posts, sorting by cuisine, participating in weekly prompts and competitions, and user authentication.
 
-In the project directory, you can run:
+## Key Features
+- **Home Page**: Displays recent posts and allows navigation to different cuisine categories.
+- **Authenticator**: Manages user authentication and routing based on login status.
+- **Homebar**: Navigation bar with links for creating posts and user profile.
+- **WeeklyPrompt**: Displays the current weekly prompt for the community.
+- **SortByCuisine**: Enables users to filter posts by different cuisines.
+- **ProfileView**: Allows users to view and manage their profiles and posts.
+- **CreatePost**: Interface for creating new posts with title, body, category, and image upload.
 
-### `npm start`
+## Setup and Installation
+To run the front-end locally, follow these steps:
+1. Ensure you have [Node.js](https://nodejs.org/) installed.
+2. Clone the repository to your local machine.
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm start
+   ```
+5. Open `http://localhost:3000` in your browser to view the application.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Technologies Used
+- React.js
+- Tailwind CSS
+- Axios for API requests
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Contributing
+Contributions are welcome! Please follow these steps to contribute:
+1. Fork the repository and create your feature branch.
+2. Make your changes and commit them.
+3. Push to your branch and open a pull request.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## License
+MIT License
